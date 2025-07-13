@@ -1,5 +1,5 @@
-<img src="https://media.discordapp.net/attachments/796396777090711635/1088971726676828300/PizzaOvenPreview.png?width=1074&height=604" width="500">
-Pizza Oven is a tool that allows gamers to download, install, and manage mods for Pizza Tower. The aim for it is to make installing mods a much better quality of life experience. Unfortunately, this tool does not solve the issue of combining multiple mods as there is no easy way to combine xdelta patches (the main method of modding Pizza Tower).
+<img src="https://media.discordapp.net/attachments/1394051950890324139/1394065021616652410/intern-managerlogo.png?ex=687573b9&is=68742239&hm=4a1b4c67e06c80566e6c6e6b7e775ce4c856da445af3706b4d065c31f2777788&=?width=1074&height=604" width="500">
+Pizza Oven is a tool that allows gamers to download, install, and manage mods for Internship. The aim for it is to make installing mods a much better quality of life experience. Unfortunately, this tool does not solve the issue of combining multiple mods as there is no easy way to combine xdelta patches (the main method of modding Internship).
 
 ## Getting Started
 ### Prerequisites
