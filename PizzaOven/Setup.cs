@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Windows;
 
-namespace PizzaOven
+namespace SugaryParlorRebooted
 {
     public static class Setup
     {
@@ -33,7 +33,7 @@ namespace PizzaOven
                 var key = Registry.LocalMachine.OpenSubKey($@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2231450");
                 if (key != null)
                     if (!String.IsNullOrEmpty(key.GetValue("InstallLocation") as string))
-                        defaultPath = $"{key.GetValue("InstallLocation") as string}{Global.s}PizzaTower.exe";
+                        defaultPath = $"{key.GetValue("InstallLocation") as string}{Global.s}SugarySpire_ExhibitionNight.exe";
             }
             catch (Exception e)
             {
