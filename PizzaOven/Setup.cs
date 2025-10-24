@@ -43,17 +43,17 @@ namespace PizzaOven
                 Global.logger.WriteLine($"Couldn't find install path in registry, select path to exe instead", LoggerType.Warning);
                 OpenFileDialog dialog = new OpenFileDialog();
                 dialog.DefaultExt = ".exe";
-                dialog.Filter = $"Executable File (PizzaTower.exe)|PizzaTower.exe";
-                dialog.Title = $"Select PizzaTower.exe from your Steam Install folder";
+                dialog.Filter = $"Executable File (SugarySpire_ExhibitionNight.exe)|SugarySpire_ExhibitionNight.exe";
+                dialog.Title = $"Select SugarySpire_ExhibitionNight.exe from your SSEN game folder";
                 dialog.Multiselect = false;
                 dialog.InitialDirectory = Global.assemblyLocation;
                 dialog.ShowDialog();
                 if (!String.IsNullOrEmpty(dialog.FileName)
-                    && Path.GetFileName(dialog.FileName).Equals("PizzaTower.exe", StringComparison.InvariantCultureIgnoreCase))
+                    && Path.GetFileName(dialog.FileName).Equals("SugarySpire_ExhibitionNight.exe", StringComparison.InvariantCultureIgnoreCase))
                     defaultPath = dialog.FileName;
                 else if (!String.IsNullOrEmpty(dialog.FileName))
                 {
-                    Global.logger.WriteLine($"PizzaTower.exe not found", LoggerType.Error);
+                    Global.logger.WriteLine($"SugarySpire_ExhibitionNight.exe not found", LoggerType.Error);
                     return false;
                 }
                 else
@@ -62,7 +62,7 @@ namespace PizzaOven
             Global.config.ModsFolder = Path.GetDirectoryName(defaultPath);
             Global.config.Launcher = defaultPath;
             Global.UpdateConfig();
-            Global.logger.WriteLine($"Setup completed for Pizza Tower!", LoggerType.Info);
+            Global.logger.WriteLine($"Setup completed for Sugary Spire: Exhbition Night!", LoggerType.Info);
             return true;
         }
     }
