@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Windows;
 
-namespace SugaryParlorRebooted
+namespace PizzaOven
 {
     public static class Setup
     {
