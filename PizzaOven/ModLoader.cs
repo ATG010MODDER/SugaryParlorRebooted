@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 
-namespace PizzaOven
+namespace SugaryParlor
 {
     public static class ModLoader
     {
@@ -19,7 +19,7 @@ namespace PizzaOven
             // Restore all backups
             RestoreDirectory(Global.config.ModsFolder);
             // Delete all banks that aren't vanilla
-            var banks = new List<string> (new string[] { "master.bank", "master.strings.bank", "music.bank", "sfx.bank" });
+            var banks = new List<string> (new string[] { "master.bank", "master.strings.bank", "music.bank", "sfx.bank", "modded-music.bank", "modded-sfx.bank", "modded-master.bank", "modded-" });
             foreach (var file in Directory.GetFiles($"{Global.config.ModsFolder}{Global.s}sound{Global.s}Desktop", "*", SearchOption.AllDirectories))
                 if (!banks.Contains(Path.GetFileName(file).ToLowerInvariant()))
                     try {
