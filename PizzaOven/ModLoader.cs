@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 
-namespace SugaryParlor
+namespace PizzaOven
 {
     public static class ModLoader
     {
@@ -60,7 +60,7 @@ namespace SugaryParlor
                     catch (Exception e)
                     {
                         if (e is System.UnauthorizedAccessException)
-                            Global.logger.WriteLine($"Access denied when trying to delete {directory}. Try reinstalling Pizza Tower to a folder you have access to or running Pizza Oven in administrator mode", LoggerType.Error);
+                            Global.logger.WriteLine($"Access denied when trying to delete {directory}. Try reinstalling SSEN to a folder you have access to or running Sugary Parlor Rebooted in administrator mode", LoggerType.Error);
                         else
                             throw;
                         return false;
