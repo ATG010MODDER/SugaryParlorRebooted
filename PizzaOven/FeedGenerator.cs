@@ -120,7 +120,7 @@ namespace PizzaOven
             }
             // Different starting endpoint if requesting all mods instead of specific category
             if (search != null)
-                url += $"ByName?_sName=*{search}*&_idGameRow=7692&";
+                url += $"ByName?_sName=*{search}*&_idGameRow=18218&";
             else if (category.ID != null)
                 url += "ByCategory?";
             else
