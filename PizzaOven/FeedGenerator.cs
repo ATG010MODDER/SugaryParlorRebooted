@@ -124,7 +124,7 @@ namespace PizzaOven
             else if (category.ID != null)
                 url += "ByCategory?";
             else
-                url += $"ByGame?_aGameRowIds[]=7692&";
+                url += $"ByGame?_aGameRowIds[]=18218&";
             // Consistent args
             url += $"_csvProperties=_sName,_sModelName,_sProfileUrl,_aSubmitter,_tsDateUpdated,_tsDateAdded,_aPreviewMedia,_sText,_sDescription,_aCategory,_aRootCategory,_aGame,_nViewCount," +
                 $"_nLikeCount,_nDownloadCount,_aFiles,_aModManagerIntegrations,_bIsNsfw,_aAlternateFileSources&_nPerpage={perPage}";
