@@ -300,7 +300,7 @@ namespace PizzaOven
         }
         private void GameBanana_Click(object sender, RoutedEventArgs e)
         {
-            var id = "7692";
+            var id = "18218";
             try
             {
                 var ps = new ProcessStartInfo($"https://gamebanana.com/games/{id}")
