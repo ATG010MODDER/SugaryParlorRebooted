@@ -951,7 +951,7 @@ namespace PizzaOven
             {
                 ErrorPanel.Visibility = Visibility.Collapsed;
                 // Initialize categories and games
-                var gameID = "7692";
+                var gameID = "18218";
                 var types = new string[] { "Mod", "Wip", "Sound" };
                 double totalPages = 0;
                 var counter = 0;
